@@ -1,0 +1,535 @@
+/*
+Theme Name: 	Restaurant
+Theme URI: 		http://wonderfulkitchen.co.uk/
+Description: 	Theme for Wonderful Kitchen Restaurant
+Version: 		1.0
+Author: 		Kristine Mae E. Galera
+Author URI: 	https://www.facebook.com/kristineesca
+Tags: 			karaoke,theme, naked, clean, basic
+*/
+
+
+head,body
+{
+background-color: #000;
+background-image: images/background-new.png;
+background-repeat:no-repeat;
+background-size:cover;
+height:100%;
+width:100%;
+text-decoration:none;
+overflow-x:hidden;
+}
+
+#wrap
+{
+min-width:300px;
+position:relative;
+width:100%;
+}
+
+/* image headers */
+#fblogo
+{
+clear:both;
+margin-left:10%; width:25%; margin-top:2%; margin-right:0;
+float:left;
+}
+
+#logo
+{
+width:80%; float:center; margin-right:auto; margin-left:auto;
+}
+
+#signup
+{
+width:25%; margin-top:2%; margin-left:10%; float:left;
+}
+
+
+
+html, body, header, footer
+{ margin: 0; min-width:300px;}
+
+.footer div {
+color:#cab687;
+}
+
+#middle
+{width:100%; height:auto; min-width:300px;}
+
+#belowmiddle {width:100%; height:auto; min-width:300px; margin-top: 20px;}
+
+#left
+{
+margin-top: 50px;
+float:left;
+margin-left:10%;
+width:25%;}
+
+#centermid
+{
+margin-top: 50px;
+float:left;
+padding-left:5%;
+width:25%;}
+
+#centerm
+{
+margin-top: 50px;
+float:left;
+margin-left:20%;
+width:30%;}
+
+#right
+{
+margin-top: 50px;
+float:left;
+margin-left:5%;
+width:25%;}
+
+
+#rightline img
+{
+float:left;
+left: 10px;
+top: 0px;
+padding-bottom:10px;
+float:left;
+width:30%;
+height:auto;
+min-width:300px;
+}
+
+#centerline img
+{position: relative;
+left: 10px;
+top: 0px;
+padding-bottom:10px;
+float:left;
+width:30%;
+height:auto;
+min-width:300px;
+}
+
+#leftline img
+{position: relative;
+left: 10px;
+top: 0px;
+padding-bottom:10px;
+float:left;
+width:30%;
+height:auto;
+min-width:300px;
+}
+
+#largeline img
+{
+width:100%;
+height:auto;
+min-width:300px;
+margin-top:20px;
+}
+
+
+#last p{text-align:left;}
+#membership img
+{
+float:left;
+width:25%;
+height:auto;
+min-width:240px;
+margin-left:10%;
+}
+
+#lastcenter
+{
+margin-left: 50px;
+float:left;
+width:25%;
+}
+
+#lastright
+{
+float:left;
+width:25%;
+margin-left: 50px;
+}
+
+#lastright img
+{
+float:left;
+position: relative;
+left: 120px;
+bottom: 35px;
+}
+
+
+#footer p{
+text-align:center;
+}
+
+#footer {
+padding-top:20px;
+padding-bottom:20px;
+}
+
+p
+{
+font-family:"Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:15px;
+text-decoration:none;
+color:#cab687;
+}
+
+p a
+{text-decoration:none;color:#cab687;}
+
+h2
+{
+font-family:"Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-decoration:none;
+color:#cab687;
+text-align:center;
+}
+
+/*NAVIGATION PROPERTIES*/
+#menu {
+	width: 100%;
+	margin-top: 0px;
+	text-align: center;
+	background-color: #000000;
+	float: left;
+	display:block;
+	text-transform: uppercase;
+}
+
+#menu ul li {
+
+font-size: 16px;
+float:left;
+margin-left:10%;
+text-decoration:none;
+bottom: 15px;
+}
+
+#menu ul li a {
+	line-height: 50px;
+	padding-left: 5px;
+	color: white;
+	text-decoration: none;
+	background-color: #000000;
+	color:#cab687;
+font-family:"Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:16px;
+}
+/*
+#menu
+{
+clear:both;
+background-image:url('images/navigation-background.png');
+background-repeat:no-repeat;
+background-position: 100% .4em;
+height:50px;
+width:100%;
+max-width: 1680px;
+display: block;
+}
+
+#menu ul
+{
+font-size: 16px;
+float:left;
+margin-left:25%;
+text-decoration:none;
+bottom: 15px;
+}
+
+#menu ul li
+{
+padding-right: 3.125em;
+margin: 1em 0;
+float:left;
+display: inline-block;
+list-style: none;
+}
+
+#menu ul li a
+{
+text-decoration:none;
+color:#cab687;
+font-family:"Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:16px;
+}
+*/
+
+/*Menu icon properties*/
+a.menu-link {
+	float: right;
+	display: block;
+	opacity: .9;
+	margin-top: 8px; /*Menu icon Margin from top*/
+	margin-left: 6px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #000000;
+		}
+
+		nav[role=navigation] {
+			clear: both;
+			-webkit-transition: all 0.3s ease-out;
+			-moz-transition: all 0.3s ease-out;
+			-ms-transition: all 0.3s ease-out;
+			-o-transition: all 0.3s ease-out;
+			transition: all 0.3s ease-out;
+		}
+		.js nav[role=navigation] {
+			overflow: hidden;
+			max-height: 0;
+		}
+		nav[role=navigation].active {
+			max-height: 15em;
+		}
+		nav[role=navigation] ul {
+			margin-top: -5px;
+		}
+		nav[role=navigation] li a {
+	display: inline;
+		}
+
+		@media screen and (min-width: 48.25em) {
+			a.menu-link {
+			   display: none;
+			}
+			.js nav[role=navigation] {
+				max-height: none;
+			}
+			nav[role=navigation] ul {
+				margin: 0 0 0 -0.25em;
+				border: 0;
+			}
+
+			nav[role=navigation]  li {
+				display: inline-block;
+				margin: 0 0.25em;
+			}
+			nav[role=navigation] li a {
+				border: 0;
+			}
+		}
+
+@media only screen and (max-width : 1024px)
+{
+body{overflow-x:hidden;}
+#media1024 {display:block; margin-left:auto; margin-right:auto; width:100%; height:auto; float:none;}
+
+#fblogo img{float:left;}
+#logo img{clear:both; display:block; margin-right:auto; margin-left:auto; width:80%; float:none;}
+#signup img{clear:both;display:block; margin-right:auto; margin-left:auto; width:auto;float:none; margin-top:10px;}
+
+#left{float:left; width:45%; height:auto; display:block; margin-left:5%; margin-right:auto; }
+#centermid {float:left; padding-left:5%; width:45%; height:auto; display:block; margin-left:auto; margin-right:auto;}
+#centerm {float:left; padding-left:5%; width:40%; height:auto; display:block; margin-left:auto; margin-right:auto;}
+#right{clear:both; width:70%; float:none; display:block; margin-left:auto; margin-right:auto; margin-top:50px;}
+
+#left img {height:auto; width:100%; display:block; margin-left:auto; margin-right:auto;}
+#centermid img {height:auto; width:100%; display:block; margin-left:auto; margin-right:auto;}
+#right img {height:auto; width:80%; display:block; margin-left:auto; margin-right:auto; margin-top: 20px;}
+
+img{max-width:100%; height:auto; margin:0;}
+#nav ul li {width:25%; background-image:url('images/navigation-background.png');
+background-repeat:no-repeat;}
+
+#membership{float:left; width:45%; height:auto; display:block; margin-left:5%; margin-right:auto; }
+#lastcenter {float:left; padding-left:5%; width:45%; height:auto; display:block; margin-left:auto; margin-right:auto;}
+#lastright{clear:both; width:70%; float:none; display:block; margin-left:auto; margin-right:auto; margin-top:20px;}
+
+#membership img {height:auto; width:80%; display:block; margin-left:auto; margin-right:auto;}
+
+#footer{width:auto;text-align:center;}
+}
+
+@media screen and (max-width: 768px) {
+
+	#menu {
+	width: 100%;
+	margin: 2px auto -5px;
+	text-align: center;
+	background-color: #000000;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+	#menu ul li {
+	list-style: none;
+	display: inline;
+}
+	#menu ul li a {
+	background: rgba(0,0,0,.3);
+	margin-top: 5px;
+	display: inline;
+}
+}
+
+@media only screen and (max-width : 480px)
+{
+body
+{
+background-color: #0000000;
+height:100%;
+width:100%;
+text-decoration:none;
+overflow-x:hidden;
+}
+#fblogo img{ display:none;}
+#logo img { clear:both;width:auto; float:none;block:display; margin-left:auto; margin-right:auto;}
+#signup img{ clear:both;width:auto; float:left;block:display; margin-left:auto; margin-right:auto;}
+#trip img {clear:both;float:none; display:block; margin-right:auto; margin-left:auto; width:auto;}
+#callus img {clear:both;float:none; display:block; margin-right:auto; margin-left:auto; width:auto;}
+
+#left{display:block; margin-right:auto; margin-left:auto; float:none; height:auto; width:100%; margin-top:20px;}
+#centermid {display:block; margin-right:auto; margin-left:auto; float:none; height:auto; width:100%; margin-top:20px;}
+#centerm {display:block; margin-right:auto; margin-left:auto; float:none; height:auto; width:100%; margin-top:20px;}
+#right{display:block; margin-right:auto; margin-left:auto; float:none; height:auto; width:100%; margin-top:20px;}
+
+#left img {display:block; margin-right:auto; margin-left:auto; float:none; height:auto; width:100%;}
+#centermid img {display:block; margin-right:auto; margin-left:auto; float:none; height:auto; width:100%;}
+#right img {display:block; margin-right:auto; margin-left:auto; float:none; height:auto; width:100%;}
+
+img{max-width:100%; height:auto; margin:0;}
+#imagemember {display:none;}
+
+#nav ul li {width:50%; font-size:85%; background-image:url('images/navigation-background.png');
+background-repeat:no-repeat;}
+
+.cycle-slideshow {display:none;}
+
+#membership{clear:both; float:none; display:block; margin-right:auto; margin-left:auto; margin-top:20px;width:auto;}
+#membership img {clear:both;float:none; display:block; margin-right:auto; margin-left:auto; width:auto;}
+#lastcenter{clear:both;float:none; display:block; margin-right:auto; margin-left:auto; margin-top:20px; width:auto;}
+#lastright {clear:both;float:none; display:block; margin-right:auto; margin-left:auto; margin-top:20px; width:auto;}
+#footer{clear:both;float:none; width:auto;margin-top:10px;}
+
+
+	#menu {
+	background-color: rgba(255,255,255,0.3); margin-bottom: 10px;
+}
+	#menu ul li {
+	width: 100%;
+	display: block;
+	border-bottom: 1px dotted #FFF;
+	float: none;
+	background-color: #000000;
+	}
+	#menu ul li a {
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	padding: 0;
+	float: none;
+	background-color: rgba(102,102,102,0.3);
+	}
+	#menu li:hover, #menu a:active {
+	background-color: rgba(0,204,255,0.3);
+}
+}
+
+
+
+
+/*
+    these are just the default styles used in the Cycle2 demo pages.
+    you can use these styles or any others that you wish.
+*/
+
+
+/* set border-box so that percents can be used for width, padding, etc (personal preference) */
+.cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+.cycle-slideshow { width: 100%; min-width: 320px; margin:0; padding: 0; float:left;
+
+ }
+
+/* slideshow images (for most of the demos, these are the actual "slides") */
+.cycle-slideshow img {
+    /*
+    some of these styles will be set by the plugin (by default) but setting them here
+    helps avoid flash-of-unstyled-content
+    */
+     width: 100%; padding: 0; margin:0; display: block; float:left;
+}
+
+/* in case script does not load */
+
+/* pager */
+.cycle-pager {
+    text-align: center; width: 100%; z-index: 500; position: absolute; bottom: 50px; overflow: visible;
+}
+.cycle-pager span {
+	font-family: arial;
+	font-size: 50px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	color: rgba(0,204,255,0.3);
+	cursor: pointer;
+}
+.cycle-pager span.cycle-pager-active {
+	color: rgba(255,255,255,0.5);
+}
+.cycle-pager > * { cursor: pointer;}
+
+
+/* caption */
+.cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
+
+
+/* overlay */
+.cycle-overlay {
+    font-family: tahoma, arial;
+    position: absolute; bottom: 0; width: 100%; z-index: 600;
+    background: black; color: white; padding: 15px; opacity: .5;
+}
+
+
+/* prev / next links */
+.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
+.cycle-prev { left: 0;  background:url(../images/leftArrow.png) 50% 50% no-repeat;}
+.cycle-next { right: 0; background:url(../images/rightArrow.png) 50% 50% no-repeat;}
+.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+
+.disabled { opacity: .5; filter:alpha(opacity=50); }
+
+
+/* display paused text on top of paused slideshow */
+.cycle-paused:after {
+    content: 'Paused'; color: white; background: black; padding: 10px;
+    z-index: 500; position: absolute; top: 10px; right: 10px;
+    border-radius: 10px;
+    opacity: .5; filter: alpha(opacity=50);
+}
+
+/*
+    media queries
+    some style overrides to make things more pleasant on mobile devices
+*/
+
+@media only screen and (max-width: 320px), only screen and (max-device-width: 480px) {
+	  #logo { width: 80%; }
+    .row div a img { width:100%;}
+    .row div img { width:50%; }
+    .footer div { font-size:300%; }
+    .row p { font-size:300%; }
+		.btn { font-size: 100%; }
+		.col-lg-4 h4 { font-size: 300%; }
+    .cycle-slideshow { width: 320px;}
+    .cycle-overlay { padding: 4px }
+    .cycle-caption { bottom: 4px; right: 4px }
+		h4.modal-title { font-size: 300%; }
+		div.card-header { font-size: 300%; }
+		h4.card-title { font-size: 300%; }
+		p.card-text { font-size: 300%; }
+		ul li { font-size: 300%; }
+}
