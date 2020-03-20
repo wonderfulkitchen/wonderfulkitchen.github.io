@@ -1,5 +1,7 @@
 body {
+    background-color: black;
     background-image: url("../images/karaoke/backgroundK.png");
+    background-repeat: no-repeat;
 }
 
 p {

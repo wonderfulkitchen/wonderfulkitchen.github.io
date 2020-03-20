@@ -1,5 +1,7 @@
 body {
+    background-color: black;
     background-image: url("../images/backgroundF.png");
+    background-repeat: no-repeat;
 }
 
 p {
@@ -7,9 +9,23 @@ p {
     padding-bottom: 2%;
 }
 
+p.title {
+    font-weight: bold;
+    color: #cab687;
+}
+
 p.subtitle {
     font-weight: bold;
     color: white;
+}
+
+.column a {
+    color: #cab687;
+}
+
+.column a:hover {
+    color: #cab687;
+    text-decoration: underline;
 }
 
 .level {
@@ -22,6 +38,10 @@ p.subtitle {
 
 #largeline {
     padding-bottom: 2%;
+}
+
+#smallline {
+    padding-bottom: 5%;
 }
 
 #modal-ter p{
