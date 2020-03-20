@@ -1,0 +1,41 @@
+body {
+    background-image: url("../images/karaoke/backgroundK.png");
+}
+
+p {
+    color: #cab687;
+    padding-bottom: 2%;
+}
+
+p a {
+    color: #cab687;
+}
+
+p.subtitle {
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    color: #000;
+}
+
+.level {
+    padding-top: 5%;
+}
+
+.hero-body {
+    padding-top: 5%;
+}
+
+#largeline {
+    padding-bottom: 2%;
+}
+
+#modal-ter p{
+        color: black;
+}
+
+#modal-hours p{
+        color: black;
+}
