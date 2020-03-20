@@ -1,0 +1,25 @@
+body {
+    background-image: url("../images/backgroundF.png");
+}
+
+p {
+    color: #cab687;
+    padding-bottom: 2%;
+}
+
+p.subtitle {
+    font-weight: bold;
+    color: white;
+}
+
+.level {
+    padding-top: 5%;
+}
+
+.hero-body {
+    padding-top: 5%;
+}
+
+#largeline {
+    padding-bottom: 2%;
+}
