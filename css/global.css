@@ -63,6 +63,22 @@ span {
     padding-bottom: 5%;
 }
 
-#modal-ter p{
-        color: black;
+#modal-ter .modal-card-head {
+        background-color: black;
+}
+
+#modal-ter .modal-card-head p{
+        color: white;
+}
+
+#modal-ter .modal-card-body {
+        background-color: black;
+}
+
+#modal-ter .modal-card-body h1{
+        color: #cab687;
+}
+
+#modal-ter .modal-card-body ul li{
+        color: #cab687;
 }
